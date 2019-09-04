@@ -33,7 +33,7 @@ Jonas gives a good introduction into what part Node JS plays in your project.
       + background-position
     }
 *How CSS works behind the scenes
-  -css: behind the scenes overview
-  -cascade and specificity (how css is parsed)
-  -css architecture: components and BEM
-  -converting px to rem
+  - css: behind the scenes overview
+  - cascade and specificity (how css is parsed)
+  - css architecture: components and BEM
+  - converting px to rem
