@@ -1,0 +1,29 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for our natours project",
+  "main": "index.js",
+  "scripts": {
+    "test": "natours run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vfonsah/advanced-css-sass.git"
+  },
+  "keywords": [
+    "advanced css",
+    "scss",
+    "sass",
+    "natours"
+  ],
+  "author": "Fonsah V. Fonsah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vfonsah/advanced-css-sass/issues"
+  },
+  "homepage": "https://github.com/vfonsah/advanced-css-sass#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "dependencies": {}
+}
