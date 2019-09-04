@@ -2,9 +2,8 @@
 learning advanced CSS and SASS with Jonas from Udemy.
 Introduction to Advanced CSS concepts.
 Jonas gives a good introduction into what part Node JS plays in your project.
-# Topics Covered
-*Advanced CSS
-  - css animations using
+# Advanced CSS
+  * css animations using
     + clip-path: <clippyShape>
     + animation: 
     + @keyframes
@@ -32,7 +31,8 @@ Jonas gives a good introduction into what part Node JS plays in your project.
       + background-size:
       + background-position
     }
-*How CSS works behind the scenes
+  
+# How CSS works behind the scenes
   - css: behind the scenes overview
   - cascade and specificity (how css is parsed)
   - css architecture: components and BEM
