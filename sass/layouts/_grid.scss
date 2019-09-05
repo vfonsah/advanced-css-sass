@@ -11,7 +11,7 @@
     //attribute selector for all col-*
     [class^="col-"] {
         float: left;
-        text-align: center;
+        // text-align: center;
     
         &:not(:last-child) {
             margin-right: $gutter-horizontal;
