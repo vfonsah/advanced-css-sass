@@ -83,9 +83,10 @@ body {
   display: inline-block;
   background-image: linear-gradient(to right, #55c57a, #28b485);
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
-  transition: all .2s;
-  letter-spacing: .1rem; }
+  transition: all 0.2s;
+  letter-spacing: 0.1rem; }
   .heading-secondary:hover {
     transform: skewY(3deg) skewX(15deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
@@ -288,6 +289,30 @@ body {
     font-size: 6rem;
     font-weight: 600; }
 
+.story {
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 5rem;
+  padding-left: 7rem;
+  font-size: 1.6rem;
+  transform: skewX(-12deg); }
+  .story__img {
+    height: 100%; }
+  .story__text {
+    transform: skewX(12deg); }
+  .story__shape {
+    width: 12rem;
+    height: 12rem;
+    float: left;
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    transform: translateX(-2rem) skewX(12deg); }
+
 .composition {
   position: relative; }
   .composition__photo {
@@ -398,5 +423,9 @@ body {
 
 .section-tours {
   background-color: #f7f7f7;
-  padding: 25rem 7rem 20rem 7rem;
+  padding: 20rem 7rem 10rem 7rem;
   margin-top: -10rem; }
+
+.section-stories {
+  padding: 10rem 7rem;
+  background-color: #f7f7f7; }
