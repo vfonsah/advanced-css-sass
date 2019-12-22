@@ -5,7 +5,7 @@
 }
 
 .section-features {
-  padding: 20rem 8rem;
+  padding: 20rem 5rem;
   background-image: linear-gradient(
       to right bottom,
       rgba($color-primary-light, 0.8),
@@ -23,11 +23,12 @@
 
 .section-tours {
   background-color: $color-grey-light-1;
-  padding: 20rem 7rem 10rem 7rem;
+  padding: 20rem 7rem 4rem 7rem;
   margin-top: -10rem;
 }
 
 .section-stories {
-  padding: 10rem 7rem;
-  background-color: $color-grey-light-1;
+  position: relative;
+  padding: 10rem 0rem;
+  // background-color: $color-grey-light-1;
 }
