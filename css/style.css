@@ -5,6 +5,13 @@
   1200 - 1800px:  Desktop (where our normal stylings apply
   1800px + :      Big desktop screens
 */
+/* 
+  Device breakpoint arguement choices:
+  - phone
+  - tab-port
+  - tab-land
+  - big-desktop
+*/
 /* define animation */
 @keyframes moveInLeft {
   0% {
@@ -46,6 +53,9 @@
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 600px) {
+    html {
+      font-size: 50%; } }
   @media (max-width: 600px) {
     html {
       font-size: 50%; } }
