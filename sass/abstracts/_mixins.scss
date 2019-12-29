@@ -27,6 +27,11 @@
   - tab-land
   - big-desktop
 
+  #ORDER:
+    Base + Typography
+    > General layout + Grid
+    > Page layout
+    > Components
   * 1em = 16px;
 */
 @mixin respond($breakpoint) {
