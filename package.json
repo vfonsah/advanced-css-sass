@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/vfonsah/advanced-css-sass#readme",
   "devDependencies": {
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.13.1"
   },
   "dependencies": {}
 }
